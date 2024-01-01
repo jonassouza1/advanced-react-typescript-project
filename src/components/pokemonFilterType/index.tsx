@@ -16,7 +16,7 @@ export const PokemonsFilterType: FunctionComponent<TypeProps> = ({ setPokemons }
 
     const onSubmit = (name?: any) => {
         const fetchDate = async () => {
-            const typeName = name.name
+            const typeName = name.name.toLowerCase()
             if (typeName !== 'poison' && typeName !== 'fire' && typeName !== 'grass' && typeName !== 'flying' && typeName !== 'water' && typeName !== 'fighting' && typeName !== 'normal') { return setError(' invalid type') }
             const pokemonsType = await getTypePokemon(typeName)
             const pokemon: any = await pokemonsType
