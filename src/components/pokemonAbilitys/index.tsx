@@ -1,3 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable array-callback-return */
 import { useEffect, useState, useContext } from "react";
 import { getAbilitysPokemon } from "../../services/getAbilitysPokemon";
 import { useParams } from "react-router";
@@ -16,7 +19,7 @@ export const PokemonAbilitys = () => {
   useEffect(() => {
     const fetchDate = async () => {
       const response = await getAbilitysPokemon(name);
-      const listAbilitys = await response.map((el) => {
+      const listAbilitys = response.map((el) => {
         const abilitys = el;
         setPokemon(el);
       });
