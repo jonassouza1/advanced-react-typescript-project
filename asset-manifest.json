@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.8f50c534.js",
-    "static/js/787.86f9dd6d.chunk.js": "/static/js/787.86f9dd6d.chunk.js",
-    "static/media/light.jpg": "/static/media/light.3722754bc7c49b157bbd.jpg",
-    "static/media/dark.png": "/static/media/dark.2b4df4fdd819709596d0.png",
-    "static/media/home.gif": "/static/media/home.54d205726f93285b4da4.gif",
-    "index.html": "/index.html",
-    "main.8f50c534.js.map": "/static/js/main.8f50c534.js.map",
-    "787.86f9dd6d.chunk.js.map": "/static/js/787.86f9dd6d.chunk.js.map"
+    "main.js": "/advanced-react-typescript-project/static/js/main.88a23017.js",
+    "static/js/787.86f9dd6d.chunk.js": "/advanced-react-typescript-project/static/js/787.86f9dd6d.chunk.js",
+    "static/media/light.jpg": "/advanced-react-typescript-project/static/media/light.3722754bc7c49b157bbd.jpg",
+    "static/media/dark.png": "/advanced-react-typescript-project/static/media/dark.2b4df4fdd819709596d0.png",
+    "static/media/home.gif": "/advanced-react-typescript-project/static/media/home.54d205726f93285b4da4.gif",
+    "index.html": "/advanced-react-typescript-project/index.html",
+    "main.88a23017.js.map": "/advanced-react-typescript-project/static/js/main.88a23017.js.map",
+    "787.86f9dd6d.chunk.js.map": "/advanced-react-typescript-project/static/js/787.86f9dd6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8f50c534.js"
+    "static/js/main.88a23017.js"
   ]
 }
