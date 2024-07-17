@@ -29,7 +29,7 @@ export const PokemonAbilitys = () => {
 
   return (
     <Section>
-      <h2>Ability</h2>
+      <h2>ABILITY</h2>
       <h4>Name: {pokemon.name}</h4>
       <h3>-- Skill Description --</h3>
       {pokemon.effect_entries.map((el: any, i: number) => {
