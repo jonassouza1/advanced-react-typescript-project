@@ -1,5 +1,6 @@
 {
   "name": "pokemons",
+  "homepage": "advanced-react-typescript-project/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
