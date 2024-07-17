@@ -6,7 +6,10 @@ export const AppRouters = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PokemonsList />} />
+        <Route
+          path="/advanced-react-typescript-project"
+          element={<PokemonsList />}
+        />
         <Route path="/pokemon/:name" element={<PokemonDetails />} />
       </Routes>
     </BrowserRouter>

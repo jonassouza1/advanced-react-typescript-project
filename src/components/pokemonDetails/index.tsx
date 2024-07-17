@@ -42,7 +42,7 @@ export const PokemonDetails = ({ $themes }: any) => {
   return (
     <Section $themes={theme}>
       <Nav>
-        <Link to="/">
+        <Link to="/advanced-react-typescript-project">
           <Img src={home} />
         </Link>
         <ThemeTogglerButton />

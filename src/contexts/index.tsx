@@ -40,7 +40,7 @@ export const ThemeProvider: FunctionComponent<ThemesProps> = ({ children }) => {
     if (storage) {
       setTheme(storage);
     } else {
-      return themes.light;
+      setTheme(themes.light);
     }
   }, []);
 

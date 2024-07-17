@@ -19,7 +19,7 @@ export const PokemonAbilitys = () => {
   useEffect(() => {
     const fetchDate = async () => {
       const response = await getAbilitysPokemon(name);
-      const listAbilitys = response.map((el) => {
+      const listAbilitys = await response.map((el) => {
         const abilitys = el;
         setPokemon(el);
       });
